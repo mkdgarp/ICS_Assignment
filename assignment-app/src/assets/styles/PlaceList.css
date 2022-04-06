@@ -1,0 +1,92 @@
+.fx-position {
+    /* background: red; */
+    height: 100vh;
+    padding-top: 6rem;
+    /* padding-left: 8rem; */
+    padding-right: 1rem;
+}
+
+ul.paginate-placeList {
+    /* background: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: var(--header-7);
+    height: 40px;
+    align-items: center;
+    padding-left: 0;
+}
+
+ul.paginate-placeList>li {
+    margin: 1rem;
+    display: block;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1.5px solid transparent;
+}
+
+ul.paginate-placeList>li:hover,
+ul.paginate-placeList>li.previous:hover,
+ul.paginate-placeList>li.next:hover {
+    background: var(--primary-dark);
+    color: white;
+    border: 1.5px solid var(--text-dark-50);
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+ul.paginate-placeList>li.previous,
+ul.paginate-placeList>li.next {
+    background: white;
+    height: 40px;
+    width: 40px;
+    color: var(--text-dark-50);
+    border: 1.5px solid var(--text-dark-50);
+    border-radius: 50px;
+    text-align: center;
+}
+
+ul.paginate-placeList>li a {
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+
+
+}
+
+ul.paginate-placeList>li.selected {
+    background: var(--primary-dark);
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: 1.5px solid var(--text-dark-50);
+    border-radius: 50px;
+    text-align: center;
+}
+
+fieldset {
+    border: none !important;
+}
+
+.input-fx::before,
+.input-fx::after {
+    border: none !important;
+}
+
+.border-right-input {
+    text-align: right;
+    padding-right: 1rem;
+    border-right: 1.5px solid var(--primary-default) !important;
+    margin-right: 1rem !important;
+}
+
+.border-select {
+    border: 1px solid var(--primary-default);
+    border-radius: 50px !important;
+}

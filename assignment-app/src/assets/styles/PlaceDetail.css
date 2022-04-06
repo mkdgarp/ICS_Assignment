@@ -1,0 +1,19 @@
+.fx-position {
+    /* background: red; */
+    height: 100vh;
+    padding-top: 6rem;
+    /* padding-left: 8rem; */
+    padding-right: 1rem;
+}
+
+.fx-btn-back {
+    display: flex;
+    font-size: var(--header-6);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fx-btn-hover:hover {
+    background-color: var(--primary-dark) !important;
+}

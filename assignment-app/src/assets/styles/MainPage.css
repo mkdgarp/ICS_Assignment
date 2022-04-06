@@ -1,0 +1,35 @@
+#main-fx {
+    display: block;
+    /* background: red; */
+    position: relative;
+    overflow-x: hidden;
+    word-break: break-all;
+}
+
+/* width */
+#main-fx::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+
+#main-fx::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin-top: 60px;
+
+}
+
+/* Handle */
+
+#main-fx::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+
+}
+
+/* Handle on hover */
+
+#main-fx::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
